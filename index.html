@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO List Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TO DO List Website</h1>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Task List</h2>
+            <ul>
+                <li>
+                    <span class="task-name">Task 1</span>
+                    <span class="deadline">Deadline: June 28, 2024</span>
+                    <span class="priority">Priority: High</span>
+                    <span class="label">Label: Urgent</span>
+                    <span class="progress">Progress: 50%</span>
+                    <progress value="50" max="100"></progress>
+                </li>
+                <li>
+                    <span class="task-name">Task 2</span>
+                    <span class="deadline">Deadline: June 30, 2024</span>
+                    <span class="priority">Priority: Normal</span>
+                    <span class="label">Label: Important</span>
+                    <span class="progress">Progress: 25%</span>
+                    <progress value="25" max="100"></progress>
+                </li>
+                <!-- Add more tasks here -->
+            </ul>
+        </section>
+        <section class="task-dependencies">
+            <h2>Task Dependencies</h2>
+            <ul>
+                <li>
+                    <span class="task-name">Task 1</span>
+                    <span class="dependent-on">Dependent on: Task 2</span>
+                </li>
+                <li>
+                    <span class="task-name">Task 2</span>
+                    <span class="dependent-on">Dependent on: Task 3</span>
+                </li>
+                <!-- Add more task dependencies here -->
+            </ul>
+        </section>
+        <section class="real-time-progress">
+            <h2>Real-time Progress Tracking</h2>
+            <div>
+                <span>Task 1: 50% complete</span>
+                <progress value="50" max="100"></progress>
+            </div>
+            <div>
+                <span>Task 2: 25% complete</span>
+                <progress value="25" max="100"></progress>
+            </div>
+            <!-- Add more task progress tracking here -->
+        </section>
+    </main>
+</body>
+</html>
